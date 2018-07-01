@@ -1,0 +1,10 @@
+﻿  Kommy.cpp
+c:\users\маркт\source\repos\kommy\kommy\kommy.cpp(64): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\маркт\source\repos\kommy\kommy\kommy.cpp(79): warning C4244: return: преобразование "double" в "int", возможна потеря данных
+c:\users\маркт\source\repos\kommy\kommy\kommy.cpp(354): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\маркт\source\repos\kommy\kommy\kommy.cpp(356): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\маркт\source\repos\kommy\kommy\kommy.cpp(383): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\маркт\source\repos\kommy\kommy\kommy.cpp(395): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\маркт\source\repos\kommy\kommy\kommy.cpp(409): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\маркт\source\repos\kommy\kommy\kommy.cpp(379): warning C4715: iter: значение возвращается не при всех путях выполнения
+  kommy.vcxproj -> C:\Users\маркт\source\repos\kommy\Debug\kommy.exe

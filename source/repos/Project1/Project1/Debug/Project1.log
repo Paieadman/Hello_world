@@ -1,0 +1,8 @@
+﻿  Source.cpp
+c:\users\маркт\source\repos\project1\project1\source.cpp(65): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\маркт\source\repos\project1\project1\source.cpp(70): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\маркт\source\repos\project1\project1\source.cpp(85): warning C4244: return: преобразование "double" в "int", возможна потеря данных
+c:\users\маркт\source\repos\project1\project1\source.cpp(219): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\маркт\source\repos\project1\project1\source.cpp(231): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\маркт\source\repos\project1\project1\source.cpp(245): warning C4018: <: несоответствие типов со знаком и без знака
+  Project1.vcxproj -> C:\Users\маркт\source\repos\Project1\Debug\Project1.exe

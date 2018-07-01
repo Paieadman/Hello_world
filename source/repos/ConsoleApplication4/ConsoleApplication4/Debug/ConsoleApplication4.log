@@ -1,0 +1,44 @@
+﻿  ConsoleApplication4.cpp
+c:\users\маркт\source\repos\consoleapplication4\consoleapplication4\consoleapplication4.cpp(9): error C2653: sf: не является именем класса или пространства имен
+c:\users\маркт\source\repos\consoleapplication4\consoleapplication4\consoleapplication4.cpp(9): error C2065: RenderWindow: необъявленный идентификатор
+c:\users\маркт\source\repos\consoleapplication4\consoleapplication4\consoleapplication4.cpp(9): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "window"
+c:\users\маркт\source\repos\consoleapplication4\consoleapplication4\consoleapplication4.cpp(9): error C3861: VideoMode: идентификатор не найден
+c:\users\маркт\source\repos\consoleapplication4\consoleapplication4\consoleapplication4.cpp(9): error C3861: window: идентификатор не найден
+c:\users\маркт\source\repos\consoleapplication4\consoleapplication4\consoleapplication4.cpp(10): error C2653: sf: не является именем класса или пространства имен
+c:\users\маркт\source\repos\consoleapplication4\consoleapplication4\consoleapplication4.cpp(10): error C2065: CircleShape: необъявленный идентификатор
+c:\users\маркт\source\repos\consoleapplication4\consoleapplication4\consoleapplication4.cpp(10): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "shape"
+c:\users\маркт\source\repos\consoleapplication4\consoleapplication4\consoleapplication4.cpp(10): error C3861: shape: идентификатор не найден
+c:\users\маркт\source\repos\consoleapplication4\consoleapplication4\consoleapplication4.cpp(11): error C2065: shape: необъявленный идентификатор
+c:\users\маркт\source\repos\consoleapplication4\consoleapplication4\consoleapplication4.cpp(11): error C2228: выражение слева от ".setFillColor" должно представлять класс, структуру или объединение
+  c:\users\маркт\source\repos\consoleapplication4\consoleapplication4\consoleapplication4.cpp(11): note: тип: unknown-type
+c:\users\маркт\source\repos\consoleapplication4\consoleapplication4\consoleapplication4.cpp(11): error C2653: sf: не является именем класса или пространства имен
+c:\users\маркт\source\repos\consoleapplication4\consoleapplication4\consoleapplication4.cpp(11): error C2065: Green: необъявленный идентификатор
+c:\users\маркт\source\repos\consoleapplication4\consoleapplication4\consoleapplication4.cpp(13): error C2065: window: необъявленный идентификатор
+c:\users\маркт\source\repos\consoleapplication4\consoleapplication4\consoleapplication4.cpp(13): error C2228: выражение слева от ".isOpen" должно представлять класс, структуру или объединение
+  c:\users\маркт\source\repos\consoleapplication4\consoleapplication4\consoleapplication4.cpp(13): note: тип: unknown-type
+c:\users\маркт\source\repos\consoleapplication4\consoleapplication4\consoleapplication4.cpp(15): error C2653: sf: не является именем класса или пространства имен
+c:\users\маркт\source\repos\consoleapplication4\consoleapplication4\consoleapplication4.cpp(15): error C2065: Event: необъявленный идентификатор
+c:\users\маркт\source\repos\consoleapplication4\consoleapplication4\consoleapplication4.cpp(15): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "event"
+c:\users\маркт\source\repos\consoleapplication4\consoleapplication4\consoleapplication4.cpp(15): error C2065: event: необъявленный идентификатор
+c:\users\маркт\source\repos\consoleapplication4\consoleapplication4\consoleapplication4.cpp(16): error C2065: window: необъявленный идентификатор
+c:\users\маркт\source\repos\consoleapplication4\consoleapplication4\consoleapplication4.cpp(16): error C2228: выражение слева от ".pollEvent" должно представлять класс, структуру или объединение
+  c:\users\маркт\source\repos\consoleapplication4\consoleapplication4\consoleapplication4.cpp(16): note: тип: unknown-type
+c:\users\маркт\source\repos\consoleapplication4\consoleapplication4\consoleapplication4.cpp(16): error C2065: event: необъявленный идентификатор
+c:\users\маркт\source\repos\consoleapplication4\consoleapplication4\consoleapplication4.cpp(18): error C2065: event: необъявленный идентификатор
+c:\users\маркт\source\repos\consoleapplication4\consoleapplication4\consoleapplication4.cpp(18): error C2228: выражение слева от ".type" должно представлять класс, структуру или объединение
+  c:\users\маркт\source\repos\consoleapplication4\consoleapplication4\consoleapplication4.cpp(18): note: тип: unknown-type
+c:\users\маркт\source\repos\consoleapplication4\consoleapplication4\consoleapplication4.cpp(18): error C2653: sf: не является именем класса или пространства имен
+c:\users\маркт\source\repos\consoleapplication4\consoleapplication4\consoleapplication4.cpp(18): error C2065: Closed: необъявленный идентификатор
+c:\users\маркт\source\repos\consoleapplication4\consoleapplication4\consoleapplication4.cpp(19): error C2065: window: необъявленный идентификатор
+c:\users\маркт\source\repos\consoleapplication4\consoleapplication4\consoleapplication4.cpp(19): error C2228: выражение слева от ".close" должно представлять класс, структуру или объединение
+  c:\users\маркт\source\repos\consoleapplication4\consoleapplication4\consoleapplication4.cpp(19): note: тип: unknown-type
+c:\users\маркт\source\repos\consoleapplication4\consoleapplication4\consoleapplication4.cpp(22): error C2065: window: необъявленный идентификатор
+c:\users\маркт\source\repos\consoleapplication4\consoleapplication4\consoleapplication4.cpp(22): error C2228: выражение слева от ".clear" должно представлять класс, структуру или объединение
+  c:\users\маркт\source\repos\consoleapplication4\consoleapplication4\consoleapplication4.cpp(22): note: тип: unknown-type
+c:\users\маркт\source\repos\consoleapplication4\consoleapplication4\consoleapplication4.cpp(23): error C2065: window: необъявленный идентификатор
+c:\users\маркт\source\repos\consoleapplication4\consoleapplication4\consoleapplication4.cpp(23): error C2228: выражение слева от ".draw" должно представлять класс, структуру или объединение
+  c:\users\маркт\source\repos\consoleapplication4\consoleapplication4\consoleapplication4.cpp(23): note: тип: unknown-type
+c:\users\маркт\source\repos\consoleapplication4\consoleapplication4\consoleapplication4.cpp(23): error C2065: shape: необъявленный идентификатор
+c:\users\маркт\source\repos\consoleapplication4\consoleapplication4\consoleapplication4.cpp(24): error C2065: window: необъявленный идентификатор
+c:\users\маркт\source\repos\consoleapplication4\consoleapplication4\consoleapplication4.cpp(24): error C2228: выражение слева от ".display" должно представлять класс, структуру или объединение
+  c:\users\маркт\source\repos\consoleapplication4\consoleapplication4\consoleapplication4.cpp(24): note: тип: unknown-type

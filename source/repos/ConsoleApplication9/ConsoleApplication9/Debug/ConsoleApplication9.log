@@ -1,0 +1,8 @@
+﻿cl : командная строка warning D9025: переопределение "/sdl" на "/GS-"
+  Source1.cpp
+c:\users\маркт\source\repos\consoleapplication9\consoleapplication9\source1.cpp(7): error C2039: cout: не является членом "std"
+  c:\users\маркт\source\repos\consoleapplication9\consoleapplication9\predefined c++ types (compiler internal)(238): note:  см. объявление "std"
+c:\users\маркт\source\repos\consoleapplication9\consoleapplication9\source1.cpp(7): error C2065: cout: необъявленный идентификатор
+c:\users\маркт\source\repos\consoleapplication9\consoleapplication9\source1.cpp(7): error C2039: endl: не является членом "std"
+  c:\users\маркт\source\repos\consoleapplication9\consoleapplication9\predefined c++ types (compiler internal)(238): note:  см. объявление "std"
+c:\users\маркт\source\repos\consoleapplication9\consoleapplication9\source1.cpp(7): error C2065: endl: необъявленный идентификатор

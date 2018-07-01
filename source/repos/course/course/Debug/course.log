@@ -1,0 +1,3 @@
+﻿  Source.cpp
+c:\users\маркт\source\repos\course\course\source.cpp(33): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  course.vcxproj -> C:\Users\маркт\source\repos\course\Debug\course.exe

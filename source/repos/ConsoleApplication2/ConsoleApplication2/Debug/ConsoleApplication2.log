@@ -1,0 +1,2 @@
+﻿  ConsoleApplication2.cpp
+c:\users\маркт\source\repos\consoleapplication2\consoleapplication2\consoleapplication2.cpp(51): error C4703: используется потенциально неинициализированная локальная переменная-указатель "x"

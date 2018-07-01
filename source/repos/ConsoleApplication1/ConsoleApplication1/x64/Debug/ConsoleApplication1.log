@@ -1,0 +1,4 @@
+﻿  ConsoleApplication1.cpp
+c:\users\маркт\source\repos\consoleapplication1\consoleapplication1\consoleapplication1.cpp(37): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+c:\users\маркт\source\repos\consoleapplication1\consoleapplication1\consoleapplication1.cpp(253): warning C4715: normalisation: значение возвращается не при всех путях выполнения
+  ConsoleApplication1.vcxproj -> C:\Users\маркт\source\repos\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe

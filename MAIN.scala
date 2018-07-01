@@ -1,62 +1,81 @@
 
 
-object MAIN {
-   def main(args:Array[String]){
-     // paragraph 8
-     def int(x:Int, y: Int): Int = {if (x  == y) y else x* int(x+1, y) }
-     println(int(2,5))
-     def Cube(x:Int): Int = x*x*x
-     def mulC(x:Int, y:Int):Int = { 
-       if (x == y) y else Cube(x) * mulC(x+1, y) 
-     }
-     def MUL(f:Int=>Int, x:Int, y:Int):Int = { 
-       if(x == y) f(y) else f(x) * MUL(f,x+1,y)
-     }
-    //println(MUL(Cube, 1,2))
-    //println(MUL(x=>x, 1,4))
-    def fac(x:Int): Int = MUL(f=>f, 1, x)
-    //println(fac(4))
-    //paragraph 9
-    def sum(f: Int=>Int)(a:Int, b:Int): Int = {
-      def loop(a:Int, acc:Int):Int ={
-        if (a == 0) acc else loop(a-1, acc+a)
-      }
-      loop(b,0)
-    }
-    //println(sum(x=>x)(1,5))
-    
-    val g = new Rational(4,6)
-    //println(g)
-    val k: list = new list(1)
-    k.push(2)
-    k.push(3)
-    
-    def search(a:Int, b:list): Int = b.find(a)
-    println(search(2,k))
-    val s = Lst.Lst(3)
-    println(s.number)
-    }   
+object MaIN {
+  def main(args:Array[String]){
+  val r = new Poly(1->2.0, 2->4.0, 3->6.0)
+  print(r.toString())  
+  println()
+    val l = new Poly(1->2.0, 2->4.0, 3->6.0)
+  print(r.toString())
+  println()
+  print((r+l).toString())
+  println()
+  def expr = {
+ val x = { print("x"); 1 }
+ lazy val y = { print("y"); 2 }
+ def z = { print("z"); 3 }
+ z + y + x + z + y + x
 }
-// paragraph 14
-class Rational(x:Int, y:Int){
-  private def gcd(a:Int, b:Int): Int = if (b == 0) a else gcd(b, a%b)
-  val number = x
-  val denom = y
-  val g = gcd(this.number,this.denom)
+  expr
+  println()
+  val xs = List(1,2,3,4)
+  println(xs.toString())
+  val factor = 5
+  println(xs map (x => x*factor))
+  println(xs filter (x => x%2 == 0))
   
-  def addR(a:Rational, b: Rational):Rational = new Rational(
-      a.number*b.denom+b.number*a.denom, a.denom* b.denom)
+ //val listNumbers = List(1, 2, 3, 4, 5)
+
+//val zeroNumber = 0
+//def joinNumbers(a: Int, b: Int): Int = a + b
+
+//println(listNumbers.foldLeft(0)(_+_))
   
-  def makestr(a:Int) =  a/g 
-  
-  def less (that:Rational)=
-    number* that.denom< that.number * denom
-    
-    def max (that: Rational)=
-      if (this.less(that)) that else this
-  
-      override def toString = 
-         makestr(number).toString + "/" + makestr(denom).toString
-        
+def translate(Num:List[Char]) = {
+    val mnemonics = Map(
+'2' -> "ABC", '3' -> "DEF", '4' -> "GHI", '5' -> "JKL",
+'6' -> "MNO", '7' -> "PQRS", '8' -> "TUV", '9' -> "WXYZ")
+ def obt(n:Char) = mnemonics(n)
+ Num map obt
+ def apply() = {
       
+    }
+  }
+  val b = List('2','2','3','4')
+  println(translate(b))
+  def queens(n: Int) = {
+    def isSafe(col:Int,queens:List[Int]):Boolean = {
+      if(queens.contains(col)) false else true
+    }
+ def placeQueens(k: Int): Set[List[Int]] = {
+  if (k == 0) Set(List())
+  else
+   for {
+    queens <- placeQueens(k - 1)
+    col <- 0 until n
+    if isSafe(col, queens)
+   } yield col :: queens
+ }
+ placeQueens(n)
+}
+ println(queens(4)) 
+}
+}
+class Poly(terms0: Map[Int, Double]) {
+ def this(bindings: (Int, Double)*) = this(bindings.toMap)
+ val terms = terms0 withDefaultValue 0.0
+ def + (other: Poly) = new Poly(terms ++ (other.terms map adjust))
+ /*def + (other: Poly) =
+ new Poly((other.terms foldLeft 0, )(addTerm))
+def addTerm(terms: Map[Int, Double], term: (Int, Double)) ={
+   
+ }*/
+ 
+ def adjust(term: (Int, Double)): (Int, Double) = {
+  val (exp, coeff) = term
+  exp -> (coeff + terms(exp))
+  }
+ override def toString =
+  (for ((exp, coeff) <- terms.toList.sorted.reverse)
+   yield coeff+"x^"+exp) mkString " + "
 }
